@@ -15,12 +15,20 @@ public class Abstract extends JPanel {
     int centerY = height / 2;
 
     for (int i = 0; i < 10; i++) {
+      Color c =
+          new Color(
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255));
+      g.setColor(c);
+
       g.fillArc(
-          (int) (centerX - (centerX * Math.random())),
-          (int) (centerY - (centerY * Math.random())),
-          100,
-          100,
-          0,
+          (int) (width * Math.random()),
+          (int) (height * Math.random()),
+          200,
+          200,
+          (int) (Math.random() * 360),
           (int) (Math.random() * 360));
     }
   }
