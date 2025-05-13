@@ -71,14 +71,18 @@
           '';
         };
     in {
+      Abstract = runnableExecutable "Abstract";
       Skyline = runnableExecutable "Skyline";
     });
 
-    apps = forEachSystem (system: {
-      Skyline = {
+    apps = forEachSystem (system: let
+      app = name: {
         type = "app";
-        program = "${self.packages.${system}.Skyline}/bin/Skyline";
+        program = "${self.packages.${system}.${name}}/bin/${name}";
       };
+    in {
+      Abstract = app "Abstract";
+      Skyline = app "Skyline";
     });
   };
 }
