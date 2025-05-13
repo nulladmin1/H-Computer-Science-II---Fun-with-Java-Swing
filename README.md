@@ -4,6 +4,18 @@ A collection of Java Swing programs created for H Computer Science II
 
 ## Programs
 
+### Abstract
+
+**Objective**: Create abstract art using rectangles, ovals, and lines with random colors, sizes, and positions.
+
+**Requirements**:
+
+- Draw at least **10 shapes**
+
+- Use **random colors** for each shape.
+
+- Use random numbers for shape placement and size. Experiment with layering, transparency, and overlapping shapes for artistic effect.
+
 ### Emoji
 
 **Objective**: Draw an emoji-style face using ovals, arcs, and rectangles.
@@ -32,4 +44,3 @@ _No, not just the basic smiley from the textbook._
 #### Run using `Nix`
 
 `nix run .#Skyline`
-
