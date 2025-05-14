@@ -54,6 +54,12 @@ public class Landscape extends JPanel {
     }
 
     // Hill
+    int hillPosX[] = {400, 200, 600};
+    int hillPosY[] = {200, 600, 600};
+    
+    g.setColor(Color.DARK_GRAY);
+
+    g.fillPolygon(hillPosX, hillPosY, hillPosX.length);
 
   }
 }
