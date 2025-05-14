@@ -31,6 +31,27 @@ public class Abstract extends JPanel {
           (int) (Math.random() * 360),
           (int) (Math.random() * 360));
     }
+
+    for (int i = 0; i < 10; i++) {
+      Color c =
+          new Color(
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255));
+      g.setColor(c);
+      g.fillRect((int) (width * Math.random()), (int) (height * Math.random()), 200, 200);
+    }
+
+    for (int i = 0; i < 10; i++) {
+      Color c =
+          new Color(
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255),
+              (int) (Math.random() * 255));
+      g.setColor(c);
+      g.fillOval((int) (width * Math.random()), (int) (height * Math.random()), 50, 50);
+    }
   }
 }
 ;
