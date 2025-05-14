@@ -74,6 +74,7 @@
       Abstract = runnableExecutable "Abstract";
       Skyline = runnableExecutable "Skyline";
       Emoji = runnableExecutable "Emoji";
+      Landscape = runnableExecutable "Landscape";
     });
 
     apps = forEachSystem (system: let
@@ -85,6 +86,7 @@
       Abstract = app "Abstract";
       Skyline = app "Skyline";
       Emoji = app "Emoji";
+      Landscape = app "Landscape";
     });
   };
 }
