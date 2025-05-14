@@ -29,7 +29,7 @@ _No, not just the basic smiley from the textbook._
 
 - Add creative elements like eyebrows, hats, or sunglasses using shapes.
 
-### Skyline (incomplete)
+### Skyline
 
 **Objective**: Use rectangles and ovals to create a silhouette of a city skyline at night.
 
