@@ -75,6 +75,7 @@
       Skyline = runnableExecutable "Skyline";
       Emoji = runnableExecutable "Emoji";
       Landscape = runnableExecutable "Landscape";
+      CVLogo = runnableExecutable "CVLogo";
     });
 
     apps = forEachSystem (system: let
@@ -87,6 +88,7 @@
       Skyline = app "Skyline";
       Emoji = app "Emoji";
       Landscape = app "Landscape";
+      CVLogo = app "CVLogo";
     });
   };
 }
