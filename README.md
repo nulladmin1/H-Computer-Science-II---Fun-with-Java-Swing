@@ -6,6 +6,8 @@ A collection of Java Swing programs created for H Computer Science II
 
 ### Abstract
 
+![Abstract](./.assets/abstract.png)
+
 **Objective**: Create abstract art using rectangles, ovals, and lines with random colors, sizes, and positions.
 
 **Requirements**:
@@ -23,6 +25,8 @@ A collection of Java Swing programs created for H Computer Science II
 ---
 
 ### Emoji
+
+![Emoji](./.assets/emoji.png)
 
 **Objective**: Draw an emoji-style face using ovals, arcs, and rectangles.
 _No, not just the basic smiley from the textbook._
@@ -43,6 +47,8 @@ _No, not just the basic smiley from the textbook._
 
 ### Skyline
 
+![Skyline](./.assets/skyline.png)
+
 **Objective**: Use rectangles and ovals to create a silhouette of a city skyline at night.
 
 **Requirements**:
@@ -61,6 +67,8 @@ _No, not just the basic smiley from the textbook._
 
 ### Landscape with Sun and Grass
 
+![Landscape](./.assets/landscape.png)
+
 **Objective**: Create an outdoor landscape
 
 **Requirements**:
@@ -76,7 +84,9 @@ nix run .#Landscape
 
 ---
 
-### **Monster or Alien Creator**
+### Monster or Alien Creator
+
+![Monster](./.assets/monster.png)
 
 **Objective**: Design a monster or alien using only simple shapes.
 
@@ -97,6 +107,8 @@ nix run .#Monster
 ---
 
 ### **Build-a-House**
+
+![House](./.assets/house.png)
 
 **Objective**: Draw a stylized house using only basic shapes.
 
