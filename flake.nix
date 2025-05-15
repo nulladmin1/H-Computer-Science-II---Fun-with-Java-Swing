@@ -76,6 +76,7 @@
       Emoji = runnableExecutable "Emoji";
       Landscape = runnableExecutable "Landscape";
       House = runnableExecutable "House";
+      Monster = runnableExecutable "Monster";
       CVLogo = runnableExecutable "CVLogo";
     });
 
@@ -90,6 +91,7 @@
       Emoji = app "Emoji";
       Landscape = app "Landscape";
       House = app "House";
+      Monster = app "Monster";
       CVLogo = app "CVLogo";
     });
   };
