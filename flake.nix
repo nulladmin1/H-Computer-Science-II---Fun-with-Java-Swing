@@ -78,6 +78,7 @@
       House = runnableExecutable "House";
       Monster = runnableExecutable "Monster";
       CVLogo = runnableExecutable "CVLogo";
+      Spirograph = runnableExecutable "Spirograph";
     });
 
     apps = forEachSystem (system: let
@@ -93,6 +94,7 @@
       House = app "House";
       Monster = app "Monster";
       CVLogo = app "CVLogo";
+      Spirograph = app "Spirograph";
     });
   };
 }
