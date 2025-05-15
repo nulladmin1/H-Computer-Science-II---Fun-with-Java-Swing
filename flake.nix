@@ -75,6 +75,7 @@
       Skyline = runnableExecutable "Skyline";
       Emoji = runnableExecutable "Emoji";
       Landscape = runnableExecutable "Landscape";
+      House = runnableExecutable "House";
       CVLogo = runnableExecutable "CVLogo";
     });
 
@@ -88,6 +89,7 @@
       Skyline = app "Skyline";
       Emoji = app "Emoji";
       Landscape = app "Landscape";
+      House = app "House";
       CVLogo = app "CVLogo";
     });
   };

@@ -98,6 +98,12 @@ _No, not just the basic smiley from the textbook._
 
 - Add a **sun** (oval), **chimney** (rectangle), and **smoke** (arcs or ovals).
 
+#### Run using Nix
+
+```
+nix run .#House
+```
+
 ---
 
 ### **Design a CV High School Logo**
