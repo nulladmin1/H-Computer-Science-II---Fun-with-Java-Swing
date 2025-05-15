@@ -88,6 +88,12 @@ nix run .#Landscape
 
 - Creative additions like antennae, arms, and accessories.
 
+#### Run using `Nix`
+
+```
+nix run .#Monster
+```
+
 ---
 
 ### **Build-a-House**
