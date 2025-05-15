@@ -68,6 +68,12 @@ _No, not just the basic smiley from the textbook._
 - Add a **sun** (yellow oval), **grass** (green rectangle), and **clouds** (white/gray ovals).
 - Add hills, mountains, and/or trees or additional elements to the horizon.
 
+#### Run using `Nix`
+
+```
+nix run .#Landscape
+```
+
 ---
 
 ### **Monster or Alien Creator**
@@ -98,7 +104,7 @@ _No, not just the basic smiley from the textbook._
 
 - Add a **sun** (oval), **chimney** (rectangle), and **smoke** (arcs or ovals).
 
-#### Run using Nix
+#### Run using `Nix`
 
 ```
 nix run .#House
